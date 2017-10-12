@@ -2,8 +2,8 @@ package org.telegram.telegrambots.test;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.telegram.telegrambots.TelegramBotsApi;
 import org.telegram.telegrambots.test.base.TestBase;
+import org.telegram.telegrambots.TelegramBotsApi;
 import org.telegram.telegrambots.exceptions.TelegramApiRequestException;
 
 /**

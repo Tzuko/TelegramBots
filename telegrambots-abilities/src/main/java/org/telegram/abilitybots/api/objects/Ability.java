@@ -2,13 +2,14 @@ package org.telegram.abilitybots.api.objects;
 
 import com.google.common.base.MoreObjects;
 import com.google.common.base.Objects;
-import org.telegram.telegrambots.api.objects.Update;
-import org.telegram.telegrambots.logging.BotLogger;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
+
+import org.telegram.telegrambots.api.objects.Update;
+import org.telegram.telegrambots.logging.BotLogger;
 
 import static com.google.common.base.Preconditions.checkArgument;
 import static com.google.common.base.Preconditions.checkNotNull;

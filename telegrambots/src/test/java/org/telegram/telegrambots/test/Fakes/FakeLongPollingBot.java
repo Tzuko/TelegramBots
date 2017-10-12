@@ -1,10 +1,10 @@
 package org.telegram.telegrambots.test.Fakes;
 
 import org.telegram.telegrambots.api.objects.Update;
-import org.telegram.telegrambots.bots.DefaultBotOptions;
 import org.telegram.telegrambots.exceptions.TelegramApiRequestException;
 import org.telegram.telegrambots.generics.BotOptions;
 import org.telegram.telegrambots.generics.LongPollingBot;
+import org.telegram.telegrambots.main.bots.DefaultBotOptions;
 
 /**
  * @author Ruben Bermudez

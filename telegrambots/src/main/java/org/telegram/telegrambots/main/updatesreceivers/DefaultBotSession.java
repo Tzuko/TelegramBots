@@ -1,4 +1,4 @@
-package org.telegram.telegrambots.updatesreceivers;
+package org.telegram.telegrambots.main.updatesreceivers;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.inject.Inject;
@@ -17,10 +17,12 @@ import org.json.JSONException;
 import org.telegram.telegrambots.ApiConstants;
 import org.telegram.telegrambots.api.methods.updates.GetUpdates;
 import org.telegram.telegrambots.api.objects.Update;
-import org.telegram.telegrambots.bots.DefaultBotOptions;
 import org.telegram.telegrambots.exceptions.TelegramApiRequestException;
 import org.telegram.telegrambots.generics.*;
 import org.telegram.telegrambots.logging.BotLogger;
+import org.telegram.telegrambots.main.bots.DefaultBotOptions;
+
+import static org.telegram.telegrambots.main.Constants.SOCKET_TIMEOUT;
 
 import java.io.IOException;
 import java.io.InvalidObjectException;
@@ -30,8 +32,6 @@ import java.security.InvalidParameterException;
 import java.util.List;
 import java.util.concurrent.ConcurrentLinkedDeque;
 import java.util.concurrent.TimeUnit;
-
-import static org.telegram.telegrambots.Constants.SOCKET_TIMEOUT;
 
 /**
  * @author Ruben Bermudez

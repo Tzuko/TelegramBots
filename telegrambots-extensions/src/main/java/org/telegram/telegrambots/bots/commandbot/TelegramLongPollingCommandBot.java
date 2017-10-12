@@ -5,11 +5,11 @@ import org.telegram.telegrambots.ApiContext;
 import org.telegram.telegrambots.api.objects.Message;
 import org.telegram.telegrambots.api.objects.Update;
 import org.telegram.telegrambots.bots.AbsSender;
-import org.telegram.telegrambots.bots.DefaultBotOptions;
-import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.bots.commandbot.commands.BotCommand;
 import org.telegram.telegrambots.bots.commandbot.commands.CommandRegistry;
 import org.telegram.telegrambots.bots.commandbot.commands.ICommandRegistry;
+import org.telegram.telegrambots.main.bots.DefaultBotOptions;
+import org.telegram.telegrambots.main.bots.TelegramLongPollingBot;
 
 import java.util.Collection;
 import java.util.Map;

@@ -12,9 +12,9 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mockito;
-import org.telegram.telegrambots.bots.DefaultBotOptions;
+import org.telegram.telegrambots.main.bots.DefaultBotOptions;
+import org.telegram.telegrambots.main.updatesreceivers.DefaultBotSession;
 import org.telegram.telegrambots.test.Fakes.FakeLongPollingBot;
-import org.telegram.telegrambots.updatesreceivers.DefaultBotSession;
 
 import java.io.IOException;
 

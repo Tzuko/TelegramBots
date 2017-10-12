@@ -16,10 +16,10 @@
  */
 package org.telegram.telegrambots.api.objects.games;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-
 import org.telegram.telegrambots.api.interfaces.BotApiObject;
 import org.telegram.telegrambots.api.objects.PhotoSize;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 /**
  * @author Ruben Bermudez

@@ -1,4 +1,4 @@
-package org.telegram.telegrambots.updatesreceivers;
+package org.telegram.telegrambots.main.updatesreceivers;
 
 import org.telegram.telegrambots.api.methods.BotApiMethod;
 import org.telegram.telegrambots.api.objects.Update;

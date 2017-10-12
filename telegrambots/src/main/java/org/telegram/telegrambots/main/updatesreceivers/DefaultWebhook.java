@@ -1,4 +1,4 @@
-package org.telegram.telegrambots.updatesreceivers;
+package org.telegram.telegrambots.main.updatesreceivers;
 
 import com.google.inject.Inject;
 

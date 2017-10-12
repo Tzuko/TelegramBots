@@ -1,9 +1,10 @@
-package org.telegram.telegrambots;
+package org.telegram.telegrambots.main;
 
+import org.telegram.telegrambots.ApiContext;
 import org.telegram.telegrambots.generics.BotSession;
 import org.telegram.telegrambots.generics.Webhook;
-import org.telegram.telegrambots.updatesreceivers.DefaultBotSession;
-import org.telegram.telegrambots.updatesreceivers.DefaultWebhook;
+import org.telegram.telegrambots.main.updatesreceivers.DefaultBotSession;
+import org.telegram.telegrambots.main.updatesreceivers.DefaultWebhook;
 
 /**
  * @author Ruben Bermudez

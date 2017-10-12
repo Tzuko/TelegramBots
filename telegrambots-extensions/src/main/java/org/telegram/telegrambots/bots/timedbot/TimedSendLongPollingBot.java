@@ -1,11 +1,11 @@
 package org.telegram.telegrambots.bots.timedbot;
 
-import org.telegram.telegrambots.bots.TelegramLongPollingBot;
-
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.atomic.AtomicBoolean;
+
+import org.telegram.telegrambots.main.bots.TelegramLongPollingBot;
 
 /**
  * Created by Daniil Nikanov aka JetCoder

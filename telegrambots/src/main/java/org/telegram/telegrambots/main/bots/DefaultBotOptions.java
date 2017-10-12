@@ -1,9 +1,9 @@
-package org.telegram.telegrambots.bots;
+package org.telegram.telegrambots.main.bots;
 
 import org.apache.http.client.config.RequestConfig;
 import org.telegram.telegrambots.ApiConstants;
 import org.telegram.telegrambots.generics.BotOptions;
-import org.telegram.telegrambots.updatesreceivers.ExponentialBackOff;
+import org.telegram.telegrambots.main.updatesreceivers.ExponentialBackOff;
 
 import java.util.List;
 

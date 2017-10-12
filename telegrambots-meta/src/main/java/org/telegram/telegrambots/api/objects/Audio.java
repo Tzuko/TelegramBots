@@ -1,8 +1,8 @@
 package org.telegram.telegrambots.api.objects;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-
 import org.telegram.telegrambots.api.interfaces.BotApiObject;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 /**
  * @author Ruben Bermudez

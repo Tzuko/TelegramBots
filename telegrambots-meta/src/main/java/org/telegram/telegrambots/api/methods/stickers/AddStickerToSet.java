@@ -1,16 +1,17 @@
 package org.telegram.telegrambots.api.methods.stickers;
 
 import com.fasterxml.jackson.core.type.TypeReference;
-import org.telegram.telegrambots.api.methods.PartialBotApiMethod;
-import org.telegram.telegrambots.api.objects.replykeyboard.ApiResponse;
-import org.telegram.telegrambots.api.objects.stickers.MaskPosition;
-import org.telegram.telegrambots.exceptions.TelegramApiRequestException;
-import org.telegram.telegrambots.exceptions.TelegramApiValidationException;
 
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Objects;
+
+import org.telegram.telegrambots.api.methods.PartialBotApiMethod;
+import org.telegram.telegrambots.api.objects.replykeyboard.ApiResponse;
+import org.telegram.telegrambots.api.objects.stickers.MaskPosition;
+import org.telegram.telegrambots.exceptions.TelegramApiRequestException;
+import org.telegram.telegrambots.exceptions.TelegramApiValidationException;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 

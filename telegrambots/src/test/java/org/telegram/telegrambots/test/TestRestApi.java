@@ -17,8 +17,8 @@ import org.telegram.telegrambots.api.methods.updatingmessages.EditMessageCaption
 import org.telegram.telegrambots.api.methods.updatingmessages.EditMessageReplyMarkup;
 import org.telegram.telegrambots.api.methods.updatingmessages.EditMessageText;
 import org.telegram.telegrambots.api.objects.Update;
+import org.telegram.telegrambots.main.updatesreceivers.RestApi;
 import org.telegram.telegrambots.test.Fakes.FakeWebhook;
-import org.telegram.telegrambots.updatesreceivers.RestApi;
 
 import javax.ws.rs.client.Entity;
 import javax.ws.rs.core.Application;

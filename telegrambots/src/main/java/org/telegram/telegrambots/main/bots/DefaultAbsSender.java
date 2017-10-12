@@ -1,4 +1,4 @@
-package org.telegram.telegrambots.bots;
+package org.telegram.telegrambots.main.bots;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.commons.io.FileUtils;
@@ -22,11 +22,14 @@ import org.telegram.telegrambots.api.methods.stickers.CreateNewStickerSet;
 import org.telegram.telegrambots.api.methods.stickers.UploadStickerFile;
 import org.telegram.telegrambots.api.objects.File;
 import org.telegram.telegrambots.api.objects.Message;
+import org.telegram.telegrambots.bots.AbsSender;
 import org.telegram.telegrambots.exceptions.TelegramApiException;
 import org.telegram.telegrambots.exceptions.TelegramApiRequestException;
 import org.telegram.telegrambots.exceptions.TelegramApiValidationException;
 import org.telegram.telegrambots.updateshandlers.DownloadFileCallback;
 import org.telegram.telegrambots.updateshandlers.SentCallback;
+
+import static org.telegram.telegrambots.main.Constants.SOCKET_TIMEOUT;
 
 import java.io.IOException;
 import java.io.Serializable;
@@ -36,8 +39,6 @@ import java.nio.charset.StandardCharsets;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
-
-import static org.telegram.telegrambots.Constants.SOCKET_TIMEOUT;
 
 /**
  * @author Ruben Bermudez

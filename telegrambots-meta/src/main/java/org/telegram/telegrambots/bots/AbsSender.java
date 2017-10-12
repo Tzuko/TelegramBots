@@ -1,5 +1,9 @@
 package org.telegram.telegrambots.bots;
 
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
+
 import org.telegram.telegrambots.api.methods.*;
 import org.telegram.telegrambots.api.methods.games.GetGameHighScores;
 import org.telegram.telegrambots.api.methods.games.SetGameScore;
@@ -20,10 +24,6 @@ import org.telegram.telegrambots.api.objects.*;
 import org.telegram.telegrambots.api.objects.games.GameHighScore;
 import org.telegram.telegrambots.exceptions.TelegramApiException;
 import org.telegram.telegrambots.updateshandlers.SentCallback;
-
-import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * @author Ruben Bermudez
