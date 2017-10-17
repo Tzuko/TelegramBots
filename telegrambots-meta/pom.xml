@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.telegram</groupId>
     <artifactId>telegrambots-meta</artifactId>
-    <version>3.3</version>
+    <version>3.3-osgi</version>
     <packaging>bundle</packaging>
 
     <name>Telegram Bots Meta</name>
@@ -108,20 +108,20 @@
         <testOutputDirectory>${project.build.directory}/test-classes</testOutputDirectory>
         <sourceDirectory>${project.basedir}/src/main/java</sourceDirectory>
         <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-gpg-plugin</artifactId>
-                <version>1.5</version>
-                <executions>
-                    <execution>
-                        <id>sign-artifacts</id>
-                        <phase>verify</phase>
-                        <goals>
-                            <goal>sign</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
+<!--             <plugin> -->
+<!--                 <groupId>org.apache.maven.plugins</groupId> -->
+<!--                 <artifactId>maven-gpg-plugin</artifactId> -->
+<!--                 <version>1.5</version> -->
+<!--                 <executions> -->
+<!--                     <execution> -->
+<!--                         <id>sign-artifacts</id> -->
+<!--                         <phase>verify</phase> -->
+<!--                         <goals> -->
+<!--                             <goal>sign</goal> -->
+<!--                         </goals> -->
+<!--                     </execution> -->
+<!--                 </executions> -->
+<!--             </plugin> -->
             <plugin>
                 <groupId>org.sonatype.plugins</groupId>
                 <artifactId>nexus-staging-maven-plugin</artifactId>
